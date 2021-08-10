@@ -1,0 +1,13 @@
+                            Xây dựng các ứng dụng với WinForm - Part 1
+                            
+App đổi màu nền theo sự kiện
+    Create project
+        Languages: C# 
+        Platform: Window 
+        Project type: Destop 
+        Windows Forms App(.NET Framwork)
+        Project name: app-changeBackground 
+        Location: C:\xampp\htdocs\winform\01-changeBackground
+        Framwork: .NET Framwork 4.7.2
+        Tắt ứng dụng diệt vi rút 
+    
