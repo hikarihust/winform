@@ -10,4 +10,22 @@ App đổi màu nền theo sự kiện
         Location: C:\xampp\htdocs\winform\01-changeBackground
         Framwork: .NET Framwork 4.7.2
         Tắt ứng dụng diệt vi rút 
+    Form
+        Reset Window Layout
+            Tất cả các hộp thoại quay về trạng thái ban đầu 
+        Toolbox: Hộp thoại này chứa các Control như Label, text, button...
+        Properties: 
+            Sort theo Alpabetical: A-Z
+            Name: frmMain
+            Text: Change Background 
+            StartPosition: CenterScreen
+                Khi khởi động thì Form nằm ở chính giữa màn hình máy tính
+            MaximizeBox: False 
+            MinimizeBox: False
+                Tắt đi chức năng thu nhỏ, phóng to 
+            ControlBox: False
+                Tắt chức năng tắt Form(X)
+            BackColor: LemonChiffon
+                Thay đổi màu Background của Form 
+        Lưu ý: Khi tạo ra Form hay tạo ra bất kỳ 1 Control nào đó thì cần nhớ đặt tên cho nó(Name)
     
