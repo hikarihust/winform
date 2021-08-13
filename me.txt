@@ -90,4 +90,5 @@ App chuẩn hóa tên
                 Text: Copy, Copy, Chuyển đổi, Làm mới
                 Font -> Size: 10, 10, 16
                 BackColor: Custom(255, 224, 192), Custom(255, 224, 192), Custom(128, 255, 128), Custom(255, 128, 0)
-     
+    ConvertVI 01
+    

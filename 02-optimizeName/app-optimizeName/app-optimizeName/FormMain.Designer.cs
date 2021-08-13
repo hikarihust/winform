@@ -37,8 +37,8 @@ namespace app_optimizeName
             this.lblEn = new System.Windows.Forms.Label();
             this.txtEn = new System.Windows.Forms.TextBox();
             this.btnCopyEn = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnConvert = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -119,35 +119,36 @@ namespace app_optimizeName
             this.btnCopyEn.Text = "Copy";
             this.btnCopyEn.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnConvert
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(167, 162);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 48);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Chuyển đổi";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnConvert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnConvert.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConvert.Location = new System.Drawing.Point(167, 162);
+            this.btnConvert.Name = "btnConvert";
+            this.btnConvert.Size = new System.Drawing.Size(136, 48);
+            this.btnConvert.TabIndex = 2;
+            this.btnConvert.Text = "Chuyển đổi";
+            this.btnConvert.UseVisualStyleBackColor = false;
+            this.btnConvert.Click += new System.EventHandler(this.btnConvert_Click);
             // 
-            // button2
+            // btnReset
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(319, 162);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(136, 48);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Làm mới";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnReset.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.Location = new System.Drawing.Point(319, 162);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(136, 48);
+            this.btnReset.TabIndex = 2;
+            this.btnReset.Text = "Làm mới";
+            this.btnReset.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Gold;
             this.panel1.Controls.Add(this.lblName);
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.btnReset);
             this.panel1.Controls.Add(this.lblVi);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnConvert);
             this.panel1.Controls.Add(this.txtYourName);
             this.panel1.Controls.Add(this.btnCopyEn);
             this.panel1.Controls.Add(this.lblEn);
@@ -186,8 +187,8 @@ namespace app_optimizeName
         private System.Windows.Forms.Label lblEn;
         private System.Windows.Forms.TextBox txtEn;
         private System.Windows.Forms.Button btnCopyEn;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnConvert;
+        private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Panel panel1;
     }
 }
