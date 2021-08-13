@@ -36,6 +36,7 @@ App đổi màu nền theo sự kiện
             Name: lblTitle
             Text: Hello WinForm
             BackColor: Orange
+        Form
             AutoSize: False, rồi điều chỉnh kích thước
             TextAlign: MiddleCenter
         Button: 
@@ -59,4 +60,34 @@ App chuẩn hóa tên
         Location: C:\xampp\htdocs\winform\02-optimizeName
         Framwork: .NET Framwork 4.7.2
         Tắt ứng dụng diệt vi rút 
-    
+    Design
+        Đổi tên Form1.cs -> FormMain.cs
+        Form:
+            Name: frmMain
+            BackColor: BlanchedAlmond
+            Text: Optimize Name
+            FormBorderStyle: FixedSingle
+            MaximizeBox: False
+        Containers:
+            Thường dùng để bao các Controls, khi di chuyển các Controls đó thì chỉ cần di chuyển Container bao ngoài đó là được
+            Panel: 
+                BackColor: gold
+                Format -> Center in Form -> Horizontally
+                Format -> Center in Form -> Vertically
+        Controls:
+            Label:
+                Name: lblName, lblVi, lblEn
+                Font -> Size: 14(Phông chữ)
+                Text: Your Name, VietNamese, English
+            Căn các Label:
+                Chọn các Label -> Format -> Align -> Rights
+            TextBox:
+                Name: txtYourName, txtVi, txtEn
+                Font -> Size: 12
+                txtVi, txtEn -> ReadOnly: True
+            Button: 
+                Name: btnCopyVi, btnCopyEn, btnConvert, btnReset
+                Text: Copy, Copy, Chuyển đổi, Làm mới
+                Font -> Size: 10, 10, 16
+                BackColor: Custom(255, 224, 192), Custom(255, 224, 192), Custom(128, 255, 128), Custom(255, 128, 0)
+     
