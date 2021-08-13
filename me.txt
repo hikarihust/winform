@@ -36,9 +36,10 @@ App đổi màu nền theo sự kiện
             Name: lblTitle
             Text: Hello WinForm
             BackColor: Orange
-        Form
-            AutoSize: False, rồi điều chỉnh kích thước
+            AutoSize: False -> Chiều rộng và dài có thể điều chỉnh được, rồi điều chỉnh kích thước(Nếu là True thì chiều 
+                rộng của Label sẽ bó lại với phần text bên trong)
             TextAlign: MiddleCenter
+                Căn chỉnh text
         Button: 
             Name: btnGreen, btnBlue, btnYellow, btnRed
             Font -> Size: 14
@@ -109,4 +110,32 @@ App Game tìm vàng
         Location: C:\xampp\htdocs\winform\03-findGold
         Framwork: .NET Framwork 4.7.2
         Tắt ứng dụng diệt vi rút 
+    Design
+        Đổi tên Form1.cs -> FormMain.cs
+        Form:
+            Name: frmMain
+            Text: App Game Tìm Vàng
+            FormBorderStyle: FixedSingle
+            MaximizeBox: False
+            BackColor: Custom(255, 255, 192)
+        Controls:
+            PictureBox: 
+                Size: 135, 156
+                Name: pictureBox1, pictureBox2, pictureBox3, pictureBox4, pictureBox5, pictureBox6
+                Image: app_findGold.Properties.Resources.question
+                    (Import 03-findGold\app-findGold\app-findGold\Resources\question.jpg)
+            Button: 
+                Name: btnReset
+                Text: New Game
+                Font -> Size: 20
+                        Bold: True
+                BackColor: Custom(255, 192, 192)
+            Label
+                AutoSize: False -> Chiều rộng và dài có thể điều chỉnh được, rồi điều chỉnh kích thước(Nếu là True thì chiều 
+                    rộng của Label sẽ bó lại với phần text bên trong)
+                BackColor: Yellow
+                Name: lblScore
+                Text: 0
+                Font -> Size: 60
+                TextAlign: MiddleCenter
     
