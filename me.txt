@@ -141,4 +141,8 @@ App Game tìm vàng
     Click card
         currentPictureBox.Enabled = false;
             -> Không Click được vào PictureBox này nữa 
+    Event
+        Thay đổi Event Click ở phần Design của các PictureBox(cả 6 PictureBox)
+            Events -> Click
+                EventClick
     

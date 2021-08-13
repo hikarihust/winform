@@ -54,7 +54,7 @@ namespace app_findGold
             this.pictureBox1.Size = new System.Drawing.Size(135, 156);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.Click += new System.EventHandler(this.EventClick);
             // 
             // pictureBox2
             // 
@@ -65,6 +65,7 @@ namespace app_findGold
             this.pictureBox2.Size = new System.Drawing.Size(135, 156);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.EventClick);
             // 
             // pictureBox3
             // 
@@ -75,6 +76,7 @@ namespace app_findGold
             this.pictureBox3.Size = new System.Drawing.Size(135, 156);
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.EventClick);
             // 
             // pictureBox4
             // 
@@ -85,6 +87,7 @@ namespace app_findGold
             this.pictureBox4.Size = new System.Drawing.Size(135, 156);
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.EventClick);
             // 
             // pictureBox5
             // 
@@ -95,6 +98,7 @@ namespace app_findGold
             this.pictureBox5.Size = new System.Drawing.Size(135, 156);
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.EventClick);
             // 
             // pictureBox6
             // 
@@ -105,6 +109,7 @@ namespace app_findGold
             this.pictureBox6.Size = new System.Drawing.Size(135, 156);
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.EventClick);
             // 
             // btnReset
             // 

@@ -22,7 +22,7 @@ namespace app_findGold
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void EventClick(object sender, EventArgs e)
         {
             PictureBox currentPictureBox = sender as PictureBox;
 
