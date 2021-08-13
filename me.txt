@@ -95,4 +95,5 @@ App chuẩn hóa tên
     ConvertVI 02
     ConvertVI 03
     ConvertEn
+    Copy
     

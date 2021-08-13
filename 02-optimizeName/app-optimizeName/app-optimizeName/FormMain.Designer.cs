@@ -89,6 +89,7 @@ namespace app_optimizeName
             this.btnCopyVi.TabIndex = 2;
             this.btnCopyVi.Text = "Copy";
             this.btnCopyVi.UseVisualStyleBackColor = false;
+            this.btnCopyVi.Click += new System.EventHandler(this.btnCopyVi_Click);
             // 
             // lblEn
             // 
@@ -118,6 +119,7 @@ namespace app_optimizeName
             this.btnCopyEn.TabIndex = 2;
             this.btnCopyEn.Text = "Copy";
             this.btnCopyEn.UseVisualStyleBackColor = false;
+            this.btnCopyEn.Click += new System.EventHandler(this.btnCopyEn_Click);
             // 
             // btnConvert
             // 
@@ -141,6 +143,7 @@ namespace app_optimizeName
             this.btnReset.TabIndex = 2;
             this.btnReset.Text = "Làm mới";
             this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // panel1
             // 
@@ -171,7 +174,6 @@ namespace app_optimizeName
             this.MaximizeBox = false;
             this.Name = "frmMain";
             this.Text = "Optimize Name";
-            this.Load += new System.EventHandler(this.frmMain_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

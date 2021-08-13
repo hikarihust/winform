@@ -63,9 +63,34 @@ namespace app_optimizeName
             return str.ToUpper();
         }
 
-        private void frmMain_Load(object sender, EventArgs e)
+        private void btnReset_Click(object sender, EventArgs e)
         {
+            txtYourName.Text = "";
+            txtYourName.Focus();
+            txtVi.Text = "";
+            txtEn.Text = "";
+        }
 
+        private void btnCopyVi_Click(object sender, EventArgs e)
+        {
+            copyToClipboard(txtVi.Text);
+        }
+
+        private void btnCopyEn_Click(object sender, EventArgs e)
+        {
+            copyToClipboard(txtEn.Text);
+        }
+
+        private void copyToClipboard(string value)
+        {
+            if (value.Length > 0)
+            {
+                Clipboard.SetText(value);
+            }
+            else
+            {
+                MessageBox.Show("Dữ liệu không được rỗng", "Thông báo");
+            }
         }
     }
 }
