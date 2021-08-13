@@ -91,6 +91,7 @@ App chuẩn hóa tên
                 Font -> Size: 10, 10, 16
                 BackColor: Custom(255, 224, 192), Custom(255, 224, 192), Custom(128, 255, 128), Custom(255, 128, 0)
     ConvertVI 01
-        Chuỗi nhập:    vŨ   @!&*đình   quangG   
+        Chuỗi nhập:    vŨ   @!&*đình   quanG   
     ConvertVI 02
+    ConvertVI 03
     

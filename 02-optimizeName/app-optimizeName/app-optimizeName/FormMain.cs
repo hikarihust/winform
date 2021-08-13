@@ -37,6 +37,15 @@ namespace app_optimizeName
             str = str.Trim();                               // Xóa khoảng trắng đầu và cuối chuỗi
             str = Regex.Replace(str, @"\s+", " ");          // Xóa khoảng trắng không cần thiết
             str = str.ToLower();                            // Chuyển toàn bộ chuỗi sang chữ thường
+            str = str.Remove(0, 1).Insert(0, Char.ToUpper(str[0]) + "");
+
+            for (int i = 0; i < str.Length - 1; i++)
+            {
+                if (Char.IsWhiteSpace(str[i]) && !Char.IsWhiteSpace(str[i+1]))
+                {
+                    str = str.Remove(i + 1, 1).Insert(i + 1, Char.ToUpper(str[i + 1]) + "");
+                }
+            }
 
             return str;
         }
