@@ -33,12 +33,22 @@ namespace app_optimizeName
 
         private string convertNameToVi(string str)
         {
-            return "convertNameToVi";
+            str = Regex.Replace(str, @"\W+", " ");         // Xóa ký tự đặt biệt
+            str = str.Trim();                               // Xóa khoảng trắng đầu và cuối chuỗi
+            str = Regex.Replace(str, @"\s+", " ");          // Xóa khoảng trắng không cần thiết
+            str = str.ToLower();                            // Chuyển toàn bộ chuỗi sang chữ thường
+
+            return str;
         }
 
         private string convertNameToEn(string str)
         {
             return "convertNameToEn";
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

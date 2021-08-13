@@ -171,6 +171,7 @@ namespace app_optimizeName
             this.MaximizeBox = false;
             this.Name = "frmMain";
             this.Text = "Optimize Name";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
