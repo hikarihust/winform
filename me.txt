@@ -138,4 +138,7 @@ App Game tìm vàng
                 Text: 0
                 Font -> Size: 60
                 TextAlign: MiddleCenter
+    Click card
+        currentPictureBox.Enabled = false;
+            -> Không Click được vào PictureBox này nữa 
     
