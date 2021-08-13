@@ -145,4 +145,5 @@ App Game tìm vàng
         Thay đổi Event Click ở phần Design của các PictureBox(cả 6 PictureBox)
             Events -> Click
                 EventClick
+    Reset
     

@@ -43,5 +43,30 @@ namespace app_findGold
             currentPictureBox.Enabled = false;
             lblScore.Text = score + "";
         }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            score = 0;
+
+            pictureBox1.Image = Properties.Resources.question;
+            pictureBox1.Enabled = true;
+
+            pictureBox2.Image = Properties.Resources.question;
+            pictureBox2.Enabled = true;
+
+            pictureBox3.Image = Properties.Resources.question;
+            pictureBox3.Enabled = true;
+
+            pictureBox4.Image = Properties.Resources.question;
+            pictureBox4.Enabled = true;
+
+            pictureBox5.Image = Properties.Resources.question;
+            pictureBox5.Enabled = true;
+
+            pictureBox6.Image = Properties.Resources.question;
+            pictureBox6.Enabled = true;
+
+            lblScore.Text = score + "";
+        }
     }
 }

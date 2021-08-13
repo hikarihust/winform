@@ -121,6 +121,7 @@ namespace app_findGold
             this.btnReset.TabIndex = 1;
             this.btnReset.Text = "New Game";
             this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // lblScore
             // 
