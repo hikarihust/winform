@@ -94,4 +94,5 @@ App chuẩn hóa tên
         Chuỗi nhập:    vŨ   @!&*đình   quanG   
     ConvertVI 02
     ConvertVI 03
+    ConvertEn
     

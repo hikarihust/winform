@@ -52,7 +52,15 @@ namespace app_optimizeName
 
         private string convertNameToEn(string str)
         {
-            return "convertNameToEn";
+            str = convertNameToVi(str);
+            str = Regex.Replace(str, @"(a|à|ả|ã|á|ạ|ă|ằ|ẳ|ẵ|ắ|ặ|â|ầ|ẩ|ẫ|ấ|ậ|Ả|Á|Ă)", "a");
+            str = Regex.Replace(str, @"(đ|Đ)", "d");
+            str = Regex.Replace(str, @"(è|ẻ|ẽ|é|ẹ|Ẹ|ê|ề|ể|ễ|ế|ệ)", "e");
+            str = Regex.Replace(str, @"(ì|ỉ|ĩ|í|ị)", "i");
+            str = Regex.Replace(str, @"(ò|ỏ|õ|ó|ọ|ô|ồ|ổ|ỗ|ố|ộ|ơ|ờ|ở|ỡ|ớ|ợ)", "o");
+            str = Regex.Replace(str, @"(ù|ủ|ũ|ú|ụ|ư|ừ|ử|ữ|ứ|ự)", "u");
+            str = Regex.Replace(str, @"(ỳ|ỷ|ỹ|ý)", "y");
+            return str.ToUpper();
         }
 
         private void frmMain_Load(object sender, EventArgs e)
