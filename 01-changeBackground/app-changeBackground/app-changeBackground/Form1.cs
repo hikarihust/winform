@@ -17,9 +17,11 @@ namespace app_changeBackground
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void frmMain_Load(object sender, EventArgs e)
         {
-
+            Random rnd = new Random();
+            lblTitle.BackColor = Color.FromArgb(rnd.Next(255), rnd.Next(255), rnd.Next(255));
+            lblTitle.ForeColor = Color.FromArgb(rnd.Next(255), rnd.Next(255), rnd.Next(255));
         }
     }
 }

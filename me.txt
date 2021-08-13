@@ -42,4 +42,6 @@ App đổi màu nền theo sự kiện
             Font -> Size: 14
             BackColor: LimeGreen, Aqua, Gold, Red
             Text: Green, Blue, Yellow, Red
+    Random Color
+        Mỗi lần khởi động Form thì màu Background(BackColor) và thay đổi màu chữ(ForeColor) của Hello WinForm thay đổi
     
