@@ -1,0 +1,10 @@
+C:\xampp\htdocs\winform\02-optimizeName\app-optimizeName\app-optimizeName\bin\Debug\app-optimizeName.exe.config
+C:\xampp\htdocs\winform\02-optimizeName\app-optimizeName\app-optimizeName\bin\Debug\app-optimizeName.exe
+C:\xampp\htdocs\winform\02-optimizeName\app-optimizeName\app-optimizeName\bin\Debug\app-optimizeName.pdb
+C:\xampp\htdocs\winform\02-optimizeName\app-optimizeName\app-optimizeName\obj\Debug\app-optimizeName.csproj.AssemblyReference.cache
+C:\xampp\htdocs\winform\02-optimizeName\app-optimizeName\app-optimizeName\obj\Debug\app_optimizeName.frmMain.resources
+C:\xampp\htdocs\winform\02-optimizeName\app-optimizeName\app-optimizeName\obj\Debug\app_optimizeName.Properties.Resources.resources
+C:\xampp\htdocs\winform\02-optimizeName\app-optimizeName\app-optimizeName\obj\Debug\app-optimizeName.csproj.GenerateResource.cache
+C:\xampp\htdocs\winform\02-optimizeName\app-optimizeName\app-optimizeName\obj\Debug\app-optimizeName.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\winform\02-optimizeName\app-optimizeName\app-optimizeName\obj\Debug\app-optimizeName.exe
+C:\xampp\htdocs\winform\02-optimizeName\app-optimizeName\app-optimizeName\obj\Debug\app-optimizeName.pdb
