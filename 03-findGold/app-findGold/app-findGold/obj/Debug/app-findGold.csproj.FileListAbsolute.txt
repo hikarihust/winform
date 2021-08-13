@@ -1,0 +1,10 @@
+C:\xampp\htdocs\winform\03-findGold\app-findGold\app-findGold\bin\Debug\app-findGold.exe.config
+C:\xampp\htdocs\winform\03-findGold\app-findGold\app-findGold\bin\Debug\app-findGold.exe
+C:\xampp\htdocs\winform\03-findGold\app-findGold\app-findGold\bin\Debug\app-findGold.pdb
+C:\xampp\htdocs\winform\03-findGold\app-findGold\app-findGold\obj\Debug\app-findGold.csproj.AssemblyReference.cache
+C:\xampp\htdocs\winform\03-findGold\app-findGold\app-findGold\obj\Debug\app_findGold.FormMain.resources
+C:\xampp\htdocs\winform\03-findGold\app-findGold\app-findGold\obj\Debug\app_findGold.Properties.Resources.resources
+C:\xampp\htdocs\winform\03-findGold\app-findGold\app-findGold\obj\Debug\app-findGold.csproj.GenerateResource.cache
+C:\xampp\htdocs\winform\03-findGold\app-findGold\app-findGold\obj\Debug\app-findGold.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\winform\03-findGold\app-findGold\app-findGold\obj\Debug\app-findGold.exe
+C:\xampp\htdocs\winform\03-findGold\app-findGold\app-findGold\obj\Debug\app-findGold.pdb
