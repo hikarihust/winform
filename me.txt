@@ -44,4 +44,7 @@ App đổi màu nền theo sự kiện
             Text: Green, Blue, Yellow, Red
     Random Color
         Mỗi lần khởi động Form thì màu Background(BackColor) và thay đổi màu chữ(ForeColor) của Hello WinForm thay đổi
-    
+    Click
+        Trên giao diện Design Double Click vào Green Button để vào Form1.cs -> method btnGreen_Click tự động được sinh ra
+        Tên các sự kiện thì có thể tham khảo ở Events trong Properties của mỗi đối tượng 
+        

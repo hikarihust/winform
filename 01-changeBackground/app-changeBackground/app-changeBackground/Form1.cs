@@ -23,5 +23,32 @@ namespace app_changeBackground
             lblTitle.BackColor = Color.FromArgb(rnd.Next(255), rnd.Next(255), rnd.Next(255));
             lblTitle.ForeColor = Color.FromArgb(rnd.Next(255), rnd.Next(255), rnd.Next(255));
         }
+
+        private void btnGreen_Click(object sender, EventArgs e)
+        {
+            changeLabelTitleBackground(Color.Green);
+        }
+
+        private void btnBlue_Click(object sender, EventArgs e)
+        {
+            changeLabelTitleBackground(Color.Blue);
+        }
+
+        private void btnYellow_Click(object sender, EventArgs e)
+        {
+            changeLabelTitleBackground(Color.Yellow);
+        }
+
+        private void btnRed_Click(object sender, EventArgs e)
+        {
+            changeLabelTitleBackground(Color.Red);
+        }
+
+        public void changeLabelTitleBackground(Color color)
+        {
+            lblTitle.BackColor = color;
+            Random rnd = new Random();
+            lblTitle.ForeColor = Color.FromArgb(rnd.Next(255), rnd.Next(255), rnd.Next(255));
+        }
     }
 }

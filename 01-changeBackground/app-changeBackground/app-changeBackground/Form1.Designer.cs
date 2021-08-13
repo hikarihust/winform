@@ -57,6 +57,7 @@ namespace app_changeBackground
             this.btnGreen.TabIndex = 1;
             this.btnGreen.Text = "Green";
             this.btnGreen.UseVisualStyleBackColor = false;
+            this.btnGreen.Click += new System.EventHandler(this.btnGreen_Click);
             // 
             // btnBlue
             // 
@@ -68,6 +69,7 @@ namespace app_changeBackground
             this.btnBlue.TabIndex = 1;
             this.btnBlue.Text = "Blue";
             this.btnBlue.UseVisualStyleBackColor = false;
+            this.btnBlue.Click += new System.EventHandler(this.btnBlue_Click);
             // 
             // btnYellow
             // 
@@ -79,6 +81,7 @@ namespace app_changeBackground
             this.btnYellow.TabIndex = 1;
             this.btnYellow.Text = "Yellow";
             this.btnYellow.UseVisualStyleBackColor = false;
+            this.btnYellow.Click += new System.EventHandler(this.btnYellow_Click);
             // 
             // btnRed
             // 
@@ -90,6 +93,7 @@ namespace app_changeBackground
             this.btnRed.TabIndex = 1;
             this.btnRed.Text = "Red";
             this.btnRed.UseVisualStyleBackColor = false;
+            this.btnRed.Click += new System.EventHandler(this.btnRed_Click);
             // 
             // frmMain
             // 
