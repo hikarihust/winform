@@ -49,6 +49,7 @@ App đổi màu nền theo sự kiện
     Click
         Trên giao diện Design Double Click vào Green Button để vào Form1.cs -> method btnGreen_Click tự động được sinh ra
         Tên các sự kiện thì có thể tham khảo ở Events trong Properties của mỗi đối tượng 
+
 App chuẩn hóa tên
     Create project
         Create a new project
@@ -96,4 +97,16 @@ App chuẩn hóa tên
     ConvertVI 03
     ConvertEn
     Copy
+    
+App Game tìm vàng
+    Create project
+        Create a new project
+        Languages: C# 
+        Platform: Window 
+        Project type: Destop 
+        Windows Forms App(.NET Framwork)
+        Project name: app-findGold
+        Location: C:\xampp\htdocs\winform\03-findGold
+        Framwork: .NET Framwork 4.7.2
+        Tắt ứng dụng diệt vi rút 
     
