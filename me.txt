@@ -28,4 +28,18 @@ App đổi màu nền theo sự kiện
             BackColor: LemonChiffon
                 Thay đổi màu Background của Form 
         Lưu ý: Khi tạo ra Form hay tạo ra bất kỳ 1 Control nào đó thì cần nhớ đặt tên cho nó(Name)
+    Design
+        Bao gồm 1 phần Text và 4 nút nhấn 
+        Text -> Label Control
+            Font -> Size: 20(Phông chữ)
+            Name: lblTitle
+            Text: Hello WinForm
+            BackColor: Orange
+            AutoSize: False, rồi điều chỉnh kích thước
+            TextAlign: MiddleCenter
+        Button: 
+            Name: btnGreen, btnBlue, btnYellow, btnRed
+            Font -> Size: 14
+            BackColor: LimeGreen, Aqua, Gold, Red
+            Text: Green, Blue, Yellow, Red
     
