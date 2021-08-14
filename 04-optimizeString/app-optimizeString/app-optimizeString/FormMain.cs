@@ -108,5 +108,44 @@ namespace app_optimizeString
             str = Regex.Replace(str, @"\s+", "-");
             return str;
         }
+
+        private void btnCopy_Click(object sender, EventArgs e)
+        {
+            copyToClipboard(txtOutput.Text);
+        }
+
+        private void copyToClipboard(string value)
+        {
+            if (value.Length > 0)
+            {
+                Clipboard.SetText(value);
+            }
+            else
+            {
+                MessageBox.Show("Dữ liệu không được rỗng", "Thông báo");
+            }
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            txtInput.Focus();
+            txtInput.Text = "";
+            txtOutput.Text = "";
+
+            radTypeDefault.Checked = true;
+            radTextDefault.Checked = true;
+
+            chkRemoveSpecial.Checked = false;
+            chkRemoveSpace.Checked = false;
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Bạn chắn chắc muốn thoát ứng dựng", "Thoát ứng dụng", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            if (dialogResult == DialogResult.OK)
+            {
+                this.Close();
+            }
+        }
     }
 }

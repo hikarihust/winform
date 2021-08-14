@@ -261,6 +261,7 @@ namespace app_optimizeString
             this.btnCopy.Size = new System.Drawing.Size(100, 80);
             this.btnCopy.TabIndex = 4;
             this.btnCopy.UseVisualStyleBackColor = false;
+            this.btnCopy.Click += new System.EventHandler(this.btnCopy_Click);
             // 
             // btnReset
             // 
@@ -272,6 +273,7 @@ namespace app_optimizeString
             this.btnReset.Size = new System.Drawing.Size(100, 80);
             this.btnReset.TabIndex = 4;
             this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnExit
             // 
@@ -283,6 +285,7 @@ namespace app_optimizeString
             this.btnExit.Size = new System.Drawing.Size(100, 80);
             this.btnExit.TabIndex = 4;
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // frmMain
             // 

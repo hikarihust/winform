@@ -210,4 +210,7 @@ App chuẩn hóa văn bản với nhiều tùy chọn
     Convert normal
     Convert english
     Convert slug
+    Reset - Copy - Exit
+        Khi nhấn nút Button thoát thì có chức năng là Confirm
+            messagebox confirm 
     
