@@ -1,0 +1,10 @@
+C:\xampp\htdocs\winform\04-optimizeString\app-optimizeString\app-optimizeString\bin\Debug\app-optimizeString.exe.config
+C:\xampp\htdocs\winform\04-optimizeString\app-optimizeString\app-optimizeString\bin\Debug\app-optimizeString.exe
+C:\xampp\htdocs\winform\04-optimizeString\app-optimizeString\app-optimizeString\bin\Debug\app-optimizeString.pdb
+C:\xampp\htdocs\winform\04-optimizeString\app-optimizeString\app-optimizeString\obj\Debug\app-optimizeString.csproj.AssemblyReference.cache
+C:\xampp\htdocs\winform\04-optimizeString\app-optimizeString\app-optimizeString\obj\Debug\app_optimizeString.frmMain.resources
+C:\xampp\htdocs\winform\04-optimizeString\app-optimizeString\app-optimizeString\obj\Debug\app_optimizeString.Properties.Resources.resources
+C:\xampp\htdocs\winform\04-optimizeString\app-optimizeString\app-optimizeString\obj\Debug\app-optimizeString.csproj.GenerateResource.cache
+C:\xampp\htdocs\winform\04-optimizeString\app-optimizeString\app-optimizeString\obj\Debug\app-optimizeString.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\winform\04-optimizeString\app-optimizeString\app-optimizeString\obj\Debug\app-optimizeString.exe
+C:\xampp\htdocs\winform\04-optimizeString\app-optimizeString\app-optimizeString\obj\Debug\app-optimizeString.pdb
