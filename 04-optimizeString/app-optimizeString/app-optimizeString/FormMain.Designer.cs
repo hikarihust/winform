@@ -67,6 +67,7 @@ namespace app_optimizeString
             this.radTypeDefault.TabStop = true;
             this.radTypeDefault.Text = "Mặc định";
             this.radTypeDefault.UseVisualStyleBackColor = true;
+            this.radTypeDefault.CheckedChanged += new System.EventHandler(this.radTypeDefault_CheckedChanged);
             // 
             // radTypeNoAccent
             // 
@@ -79,6 +80,7 @@ namespace app_optimizeString
             this.radTypeNoAccent.TabStop = true;
             this.radTypeNoAccent.Text = "Tiếng Anh";
             this.radTypeNoAccent.UseVisualStyleBackColor = true;
+            this.radTypeNoAccent.CheckedChanged += new System.EventHandler(this.radTypeNoAccent_CheckedChanged);
             // 
             // groupBox1
             // 
@@ -105,6 +107,7 @@ namespace app_optimizeString
             this.radTypeSlug.TabStop = true;
             this.radTypeSlug.Text = "Slug";
             this.radTypeSlug.UseVisualStyleBackColor = true;
+            this.radTypeSlug.CheckedChanged += new System.EventHandler(this.radTypeSlug_CheckedChanged);
             // 
             // groupBox3
             // 

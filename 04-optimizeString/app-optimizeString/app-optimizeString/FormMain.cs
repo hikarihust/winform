@@ -147,5 +147,26 @@ namespace app_optimizeString
                 this.Close();
             }
         }
+
+        private void radTypeDefault_CheckedChanged(object sender, EventArgs e)
+        {
+            radTextDefault.Checked = true;
+            chkRemoveSpace.Checked = false;
+            chkRemoveSpecial.Checked = false;
+        }
+
+        private void radTypeNoAccent_CheckedChanged(object sender, EventArgs e)
+        {
+            chkRemoveSpace.Checked = true;
+            chkRemoveSpecial.Checked = true;
+            radTextDefault.Checked = true;
+        }
+
+        private void radTypeSlug_CheckedChanged(object sender, EventArgs e)
+        {
+            chkRemoveSpace.Checked = true;
+            chkRemoveSpecial.Checked = true;
+            radTextLower.Checked = true;
+        }
     }
 }

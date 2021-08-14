@@ -213,4 +213,14 @@ App chuẩn hóa văn bản với nhiều tùy chọn
     Reset - Copy - Exit
         Khi nhấn nút Button thoát thì có chức năng là Confirm
             messagebox confirm 
+    Auto check
+        Khi chọn Loại văn bản là: Mặc định
+            -> Tự động bỏ các checked ở Chuẩn hóa(Loại bỏ ký tự đặc biệt, Loại bỏ khoảng trắng dư thừa)
+               Kiểu chữ: Chữ mặc định -> được chọn
+        Khi chọn Loại văn bản là: Tiếng anh 
+            -> Tự động chọn các checked ở Chuẩn hóa(Loại bỏ ký tự đặc biệt, Loại bỏ khoảng trắng dư thừa)
+               Kiểu chữ: Chữ mặc định -> được chọn
+        Khi chọn Loại văn bản là: Slug
+            -> Tự động bỏ các checked ở Chuẩn hóa(Loại bỏ ký tự đặc biệt, Loại bỏ khoảng trắng dư thừa)
+               Kiểu chữ: Chữ thường -> được chọn
     
