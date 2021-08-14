@@ -159,4 +159,52 @@ App chuẩn hóa văn bản với nhiều tùy chọn
         Framwork: .NET Framwork 4.7.2
         Tắt ứng dụng diệt vi rút 
         Đổi tên Form1.cs -> FormMain.cs
-    
+    Design
+        https://www.flaticon.com/free-icons/exit
+        Form
+            Name: frmMain
+            Text: App Optimize String
+            FormBorderStyle: FixedSingle
+            MaximizeBox: False
+            BackColor: LemonChiffon
+        Containers
+            GroupBox: 
+                Text: Loại văn bản, Kiểu chữ
+                BackColor: Custom(255, 224, 192)
+                Font -> Size: 14
+                        Bold: True
+                radio Button: 
+                    Name: radTextDefault, radTextUpper, radTextLower
+                    Text: Chữ mặc định, Chữ in hoa, Chữ thường
+                    Font -> Size: 12
+            GroupBox: 
+                Text: Loại văn bản, Kiểu chữ
+                BackColor: Custom(255, 224, 192)
+                Font -> Size: 14
+                        Bold: True
+                CheckBox: 
+                    Name: chkRemoveSpecial, chkRemoveSpace
+                    Text: Loại bỏ ký tự đặc biệt, Loại bỏ khoảng trắng dư thừa
+                    Font -> Size: 12
+        Label
+            Name: label1, label2
+            Font -> Bold: True
+            Font -> Size: 14
+            Text: Input, Output
+        TextBox:
+            Name: txtInput, txtOutput
+            Font -> Size: 12
+            Multiline: True
+            txtOutput -> ReadOnly: True
+        ImageList(Components)
+            Name: imageListIconButton
+            Images: convert.png, copy.png, delete.png, exit.png
+            ImageSize: 64, 64(width, height)
+        Button
+            Name: btnConvert, btnCopy, btnReset, btnExit
+            Size: 100, 80(width, height)
+            Text: Không có tên mà là tấm hình nên ko có Text
+            ImageList: imageListIconButton
+            ImageKey: convert.png, copy.png, delete.png, exit.png
+            BackColor: White
+        
