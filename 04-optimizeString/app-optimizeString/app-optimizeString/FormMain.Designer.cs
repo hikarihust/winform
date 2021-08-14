@@ -45,7 +45,7 @@ namespace app_optimizeString
             this.txtInput = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtOutput = new System.Windows.Forms.TextBox();
             this.imageListIconButton = new System.Windows.Forms.ImageList(this.components);
             this.btnConvert = new System.Windows.Forms.Button();
             this.btnCopy = new System.Windows.Forms.Button();
@@ -220,15 +220,15 @@ namespace app_optimizeString
             this.label2.TabIndex = 3;
             this.label2.Text = "Output";
             // 
-            // textBox1
+            // txtOutput
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(305, 254);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(309, 141);
-            this.textBox1.TabIndex = 2;
+            this.txtOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOutput.Location = new System.Drawing.Point(305, 254);
+            this.txtOutput.Multiline = true;
+            this.txtOutput.Name = "txtOutput";
+            this.txtOutput.ReadOnly = true;
+            this.txtOutput.Size = new System.Drawing.Size(309, 141);
+            this.txtOutput.TabIndex = 2;
             // 
             // imageListIconButton
             // 
@@ -249,6 +249,7 @@ namespace app_optimizeString
             this.btnConvert.Size = new System.Drawing.Size(100, 80);
             this.btnConvert.TabIndex = 4;
             this.btnConvert.UseVisualStyleBackColor = false;
+            this.btnConvert.Click += new System.EventHandler(this.btnConvert_Click);
             // 
             // btnCopy
             // 
@@ -295,7 +296,7 @@ namespace app_optimizeString
             this.Controls.Add(this.btnConvert);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtOutput);
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -304,6 +305,7 @@ namespace app_optimizeString
             this.MaximizeBox = false;
             this.Name = "frmMain";
             this.Text = "App Optimize String";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -331,7 +333,7 @@ namespace app_optimizeString
         private System.Windows.Forms.TextBox txtInput;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtOutput;
         private System.Windows.Forms.ImageList imageListIconButton;
         private System.Windows.Forms.Button btnConvert;
         private System.Windows.Forms.Button btnCopy;

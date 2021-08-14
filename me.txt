@@ -207,4 +207,5 @@ App chuẩn hóa văn bản với nhiều tùy chọn
             ImageList: imageListIconButton
             ImageKey: convert.png, copy.png, delete.png, exit.png
             BackColor: White
+    Convert normal
         
