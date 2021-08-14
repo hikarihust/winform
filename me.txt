@@ -224,3 +224,16 @@ App chuẩn hóa văn bản với nhiều tùy chọn
             -> Tự động bỏ các checked ở Chuẩn hóa(Loại bỏ ký tự đặc biệt, Loại bỏ khoảng trắng dư thừa)
                Kiểu chữ: Chữ thường -> được chọn
     
+App tính tiền lương
+    Create project
+        Create a new project
+        Languages: C# 
+        Platform: Window 
+        Project type: Destop 
+        Windows Forms App(.NET Framwork)
+        Project name: app-tinhluong
+        Location: C:\xampp\htdocs\winform\05-tinhluong
+        Framwork: .NET Framwork 4.7.2
+        Tắt ứng dụng diệt vi rút 
+        Đổi tên Form1.cs -> FormMain.cs
+    
