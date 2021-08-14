@@ -146,4 +146,17 @@ App Game tìm vàng
             Events -> Click
                 EventClick
     Reset
+
+App chuẩn hóa văn bản với nhiều tùy chọn
+    Create project
+        Create a new project
+        Languages: C# 
+        Platform: Window 
+        Project type: Destop 
+        Windows Forms App(.NET Framwork)
+        Project name: app-optimizeString
+        Location: C:\xampp\htdocs\winform\04-optimizeString
+        Framwork: .NET Framwork 4.7.2
+        Tắt ứng dụng diệt vi rút 
+        Đổi tên Form1.cs -> FormMain.cs
     
