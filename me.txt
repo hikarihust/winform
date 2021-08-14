@@ -209,4 +209,5 @@ App chuẩn hóa văn bản với nhiều tùy chọn
             BackColor: White
     Convert normal
     Convert english
+    Convert slug
     

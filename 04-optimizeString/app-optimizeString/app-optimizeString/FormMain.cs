@@ -67,6 +67,10 @@ namespace app_optimizeString
                 {
                     str = RemoveAccent(str);
                 }
+                else if (radTypeSlug.Checked == true)
+                {
+                    str = ConvertNameToSlug(str);
+                }
             }
             else
             {
@@ -95,6 +99,13 @@ namespace app_optimizeString
             str = Regex.Replace(str, @"(Ỳ|Ỷ|Ỹ|Ý)", "Y");
             str = Regex.Replace(str, @"(Đ)", "D");
 
+            return str;
+        }
+
+        private string ConvertNameToSlug(string str)
+        {
+            str = RemoveAccent(str);
+            str = Regex.Replace(str, @"\s+", "-");
             return str;
         }
     }
