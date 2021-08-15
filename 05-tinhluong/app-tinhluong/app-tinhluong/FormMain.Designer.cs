@@ -149,6 +149,7 @@ namespace app_tinhluong
             this.btnResult.TabIndex = 1;
             this.btnResult.Text = "Tính Lương";
             this.btnResult.UseVisualStyleBackColor = false;
+            this.btnResult.Click += new System.EventHandler(this.btnResult_Click);
             // 
             // btnReset
             // 
@@ -295,6 +296,7 @@ namespace app_tinhluong
             this.dtpEnd.Name = "dtpEnd";
             this.dtpEnd.Size = new System.Drawing.Size(136, 29);
             this.dtpEnd.TabIndex = 2;
+            this.dtpEnd.ValueChanged += new System.EventHandler(this.dtpEnd_ValueChanged);
             // 
             // frmMain
             // 
