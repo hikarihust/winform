@@ -51,7 +51,7 @@ namespace app_tinhluong
             this.label8 = new System.Windows.Forms.Label();
             this.chkWeekend = new System.Windows.Forms.CheckBox();
             this.dtpStart = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpEnd = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -59,7 +59,7 @@ namespace app_tinhluong
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
+            this.groupBox1.Controls.Add(this.dtpEnd);
             this.groupBox1.Controls.Add(this.dtpStart);
             this.groupBox1.Controls.Add(this.chkWeekend);
             this.groupBox1.Controls.Add(this.label8);
@@ -284,16 +284,16 @@ namespace app_tinhluong
             this.dtpStart.Size = new System.Drawing.Size(136, 29);
             this.dtpStart.TabIndex = 2;
             // 
-            // dateTimePicker1
+            // dtpEnd
             // 
-            this.dateTimePicker1.CustomFormat = "dd/MM/yyyy";
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(518, 34);
-            this.dateTimePicker1.MaxDate = new System.DateTime(2021, 12, 31, 0, 0, 0, 0);
-            this.dateTimePicker1.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(136, 29);
-            this.dateTimePicker1.TabIndex = 2;
+            this.dtpEnd.CustomFormat = "dd/MM/yyyy";
+            this.dtpEnd.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpEnd.Location = new System.Drawing.Point(518, 34);
+            this.dtpEnd.MaxDate = new System.DateTime(2021, 12, 31, 0, 0, 0, 0);
+            this.dtpEnd.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
+            this.dtpEnd.Name = "dtpEnd";
+            this.dtpEnd.Size = new System.Drawing.Size(136, 29);
+            this.dtpEnd.TabIndex = 2;
             // 
             // frmMain
             // 
@@ -309,6 +309,7 @@ namespace app_tinhluong
             this.MaximizeBox = false;
             this.Name = "frmMain";
             this.Text = "App Tính Lương";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -342,7 +343,7 @@ namespace app_tinhluong
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DateTimePicker dtpStart;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpEnd;
     }
 }
 

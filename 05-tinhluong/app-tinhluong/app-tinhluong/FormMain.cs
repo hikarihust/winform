@@ -12,9 +12,26 @@ namespace app_tinhluong
 {
     public partial class frmMain : Form
     {
+        private const int SALARY_NORMAL_DAY = 50000;
+        private const int SALARY_WEEKEND_DAY = 100000;
+
         public frmMain()
         {
             InitializeComponent();
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            Init();
+        }
+
+        private void Init()
+        {
+            lblSalaryNormalDay.Text = Helper.FormatNumber(SALARY_NORMAL_DAY);
+            lblSalaryWeekendDay.Text = Helper.FormatNumber(SALARY_WEEKEND_DAY);
+
+            dtpStart.Value = DateTime.Now.AddDays(-1);
+            dtpEnd.Value = DateTime.Now.AddDays(1);
         }
     }
 }

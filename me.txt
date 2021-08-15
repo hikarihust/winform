@@ -313,4 +313,7 @@ App tính tiền lương
             BackColor: Custom(225, 192, 192)
             Font -> Size: 12 
                     Bold: True
+    Init
+        Add -> Class
+            Helper.cs 
     
