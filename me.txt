@@ -318,4 +318,5 @@ App tính tiền lương
             Helper.cs 
     Reset
     Count day 
+    Salary
     

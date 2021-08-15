@@ -40,6 +40,13 @@ namespace app_tinhluong
 
                 lblTotalDayWeekend.Text = totalDayWeekend + "";
                 lblTotalDayNormal.Text = totalDayNormal + "";
+
+                int totalSalaryNormal = SALARY_NORMAL_DAY * totalDayNormal;
+                int totalSalaryWeekend = SALARY_WEEKEND_DAY * totalDayWeekend;
+
+                lblTotalSalaryNormal.Text = Helper.FormatNumber(totalSalaryNormal);
+                lblTotalSalaryWeekend.Text = Helper.FormatNumber(totalSalaryWeekend);
+                lblTotalSalary.Text = Helper.FormatNumber(totalSalaryNormal + totalSalaryWeekend);
             }
         }
 
