@@ -236,4 +236,81 @@ App tính tiền lương
         Framwork: .NET Framwork 4.7.2
         Tắt ứng dụng diệt vi rút 
         Đổi tên Form1.cs -> FormMain.cs
+    Design
+        Form
+            Name: frmMain
+            Text: App Tính Lương
+            FormBorderStyle: FixedSingle
+            MaximizeBox: False
+            BackColor: LemonChiffon
+        GroupBox
+            Text: Thời gian làm việc
+            Font -> Size: 14
+            Label
+                Text: Ngày bắt đầu, Ngày kết thúc
+            DateTimepicker 
+                Name: dtpStart, dtpEnd
+                Format: Custom
+                CustomFormat: dd/MM/yyyy
+                MinDate: 1/1/1950
+                MaxDate: 31/12/2021
+            Label
+                Text: Làm việc ngày cuối tuần
+            CheckBox
+                Name: chkWeekend
+                Text: Có
+        GroupBox
+            Text: Thông tin lương
+            Font -> Size: 14
+            Label:
+                Name: label2, label3
+                Text: Ngày thường, Ngày cuối tuần
+                Font -> Size: 14
+            Label
+                Name: lblSalaryNormalDay, lblSalaryWeekendDay
+                AutoSize: False
+                Size: 130, 33
+                Text: Để trống
+                BackColor: Custom(255, 255, 128)
+                Font -> Size: 14
+        GroupBox
+            Text: Bảng lương
+            Font -> Size: 14
+            Label
+                Name: lblTotalDayNormal, lblTotalDayWeekend
+                AutoSize: False
+                Size: 48, 33
+                Text: 0
+                BackColor: Custom(255, 255, 128)
+                TextAlign: MiddleRight
+                Font -> Size: 14
+            Label
+                Name: label4, label5, label7
+                AutoSize: False
+                Size: 244, 26; 353, 26
+                Text: ngày công thường, nhận; ngày công làm việc cuối tuần, nhận; Tổng lương thực lãnh
+                Font -> Size: 14
+            Label
+                Name: lblTotalSalaryNormal, lblTotalSalaryWeekend
+                AutoSize: False
+                Size: 212, 33
+                Text: 0đ
+                BackColor: Custom(255, 255, 128)
+                TextAlign: MiddleRight
+                Font -> Size: 14
+            Label
+                Name: lblTotalSalary
+                AutoSize: False
+                Size: 212, 33
+                Text: 0đ
+                BackColor: Custom(255, 255, 128)
+                TextAlign: MiddleRight
+                Font -> Size: 14
+                ForeColor: Red
+        Button
+            Name: btnResult, btnReset
+            Text: Tính Lương, Làm mới
+            BackColor: Custom(225, 192, 192)
+            Font -> Size: 12 
+                    Bold: True
     

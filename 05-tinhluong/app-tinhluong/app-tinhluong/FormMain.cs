@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace app_tinhluong
 {
-    public partial class FormMain : Form
+    public partial class frmMain : Form
     {
-        public FormMain()
+        public frmMain()
         {
             InitializeComponent();
         }
