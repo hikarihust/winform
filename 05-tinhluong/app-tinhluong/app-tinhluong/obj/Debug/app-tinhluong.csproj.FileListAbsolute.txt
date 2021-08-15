@@ -1,0 +1,10 @@
+C:\xampp\htdocs\winform\05-tinhluong\app-tinhluong\app-tinhluong\bin\Debug\app-tinhluong.exe.config
+C:\xampp\htdocs\winform\05-tinhluong\app-tinhluong\app-tinhluong\bin\Debug\app-tinhluong.exe
+C:\xampp\htdocs\winform\05-tinhluong\app-tinhluong\app-tinhluong\bin\Debug\app-tinhluong.pdb
+C:\xampp\htdocs\winform\05-tinhluong\app-tinhluong\app-tinhluong\obj\Debug\app-tinhluong.csproj.AssemblyReference.cache
+C:\xampp\htdocs\winform\05-tinhluong\app-tinhluong\app-tinhluong\obj\Debug\app_tinhluong.frmMain.resources
+C:\xampp\htdocs\winform\05-tinhluong\app-tinhluong\app-tinhluong\obj\Debug\app_tinhluong.Properties.Resources.resources
+C:\xampp\htdocs\winform\05-tinhluong\app-tinhluong\app-tinhluong\obj\Debug\app-tinhluong.csproj.GenerateResource.cache
+C:\xampp\htdocs\winform\05-tinhluong\app-tinhluong\app-tinhluong\obj\Debug\app-tinhluong.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\winform\05-tinhluong\app-tinhluong\app-tinhluong\obj\Debug\app-tinhluong.exe
+C:\xampp\htdocs\winform\05-tinhluong\app-tinhluong\app-tinhluong\obj\Debug\app-tinhluong.pdb
