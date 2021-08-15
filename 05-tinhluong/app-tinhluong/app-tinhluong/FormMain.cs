@@ -25,6 +25,11 @@ namespace app_tinhluong
             Init();
         }
 
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            Init();
+        }
+
         private void Init()
         {
             lblSalaryNormalDay.Text = Helper.FormatNumber(SALARY_NORMAL_DAY);
@@ -32,6 +37,12 @@ namespace app_tinhluong
 
             dtpStart.Value = DateTime.Now.AddDays(-1);
             dtpEnd.Value = DateTime.Now.AddDays(1);
+
+            lblTotalSalaryNormal.Text = "0đ";
+            lblTotalSalaryWeekend.Text = "0đ";
+            lblTotalSalary.Text = "0đ";
+            lblTotalDayNormal.Text = "0";
+            lblTotalDayWeekend.Text = "0";
         }
     }
 }

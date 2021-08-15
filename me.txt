@@ -316,4 +316,5 @@ App tính tiền lương
     Init
         Add -> Class
             Helper.cs 
+    Reset
     

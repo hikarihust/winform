@@ -160,6 +160,7 @@ namespace app_tinhluong
             this.btnReset.TabIndex = 1;
             this.btnReset.Text = "Làm mới";
             this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // lblTotalDayNormal
             // 
